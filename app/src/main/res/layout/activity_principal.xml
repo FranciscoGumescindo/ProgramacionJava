@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    tools:context=".Principal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chat"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageButton
+            android:src="@drawable/ic_chat_black_24dp"
+            android:id="@+id/chat"
+            android:background="#BDBDBD"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="7sp"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ejercicios"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageView
+                android:src="@mipmap/splash"
+                android:id="@+id/ejercicios"
+                android:background="#BDBDBD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Links"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageView
+                android:src="@mipmap/splash"
+                android:id="@+id/links"
+                android:background="#BDBDBD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tutorial"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"/>
+
+            <ImageView
+                android:src="@mipmap/splash"
+                android:id="@+id/tutorial"
+                android:background="#BDBDBD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7sp"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".SplashScreen">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDOS A: "
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center_horizontal"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/splash"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVA-BOT!!!"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center_horizontal"/>
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="30dp">
+
+       <Button
+           android:id="@+id/entrar"
+           android:background="@color/colorAccent"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Entrar"
+           android:layout_marginRight="20dp"
+           android:layout_gravity="right"/>
+
+       <Button
+           android:id="@+id/salir"
+           android:background="@color/colorAccent"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Salir"
+           android:layout_gravity="center_horizontal"/>
+
+   </LinearLayout>
+
+
+
+</LinearLayout>

@@ -56,7 +56,16 @@
            android:text="Salir"
            android:layout_gravity="center_horizontal"/>
 
+
+
    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Funciona"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"/>
 
 
 
